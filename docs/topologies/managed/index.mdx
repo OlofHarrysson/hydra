@@ -21,7 +21,6 @@ This document outlines the _managed Hydra head_ topology, which could also be de
   />
 </p>
 
-The [basic Hydra head setup](./basic) requires each participant to host an instance of a `hydra-node`, similar to how `cardano-node`s operate on the Cardano network. In contrast, 'light node' setups allow users to access the blockchain through a hosted API, with light wallets being a common example.
 
 In this topology, clients do not need to run their own `hydra-node`s but instead access a `hydra-node` provided by a _service provider_. Client applications, such as light wallets, do not need to be aware of individual `hydra-node` instances. Instead, logical _Hydra heads_ are accessible via an API.
 
